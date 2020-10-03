@@ -11,8 +11,4 @@ if($_POST["email"]<>''){
   mail($ToEmail,$EmailSubject,$MESSAGE_BODY,$mailheader) or die ("Failure");
   
   ?>
-Your message has been sent
 
-<?php
-}else{
-?>
